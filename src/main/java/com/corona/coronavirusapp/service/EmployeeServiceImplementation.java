@@ -62,7 +62,7 @@ public class EmployeeServiceImplementation implements IEmployeeService {
            repository.deleteById(id);
         }
         else{
-            throw new  RecordNotFoundException("Employee not  found");
+            throw new  RecordNotFoundException("Employee not available not   found");
         }
 
 
